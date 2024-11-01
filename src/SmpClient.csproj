@@ -8,10 +8,11 @@
   <!-- NuGet -->
   <PropertyGroup>
     <PackageId>SmpClient</PackageId>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <Authors>Onur Coskun</Authors>
     <Title>Quick and dirty  for Nrf52832 Dfu Update</Title>
     <Description>Quick and dirty library for Nrf52832 Dfu Update. Dfu update using Ble Smp Service.</Description>
+    <RepositoryUrl>https://github.com/onurcoskun14/SmpClientManager</RepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
