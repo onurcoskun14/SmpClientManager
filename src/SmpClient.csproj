@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType> 
+  </PropertyGroup>
+
+  <!-- NuGet -->
+  <PropertyGroup>
+    <PackageId>SmpClient</PackageId>
+    <Version>1.0.7</Version>
+    <Authors>Onur Coskun</Authors>
+    <Title>Quick and dirty  for Nrf52832 Dfu Update</Title>
+    <Description>Quick and dirty library for Nrf52832 Dfu Update. Dfu update using Ble Smp Service.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetBlueZ" Version="1.0.2" />
+    <PackageReference Include="PeterO.Cbor" Version="4.5.5" />
+  </ItemGroup>
+
+</Project>
